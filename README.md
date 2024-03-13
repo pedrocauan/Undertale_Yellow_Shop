@@ -1,2 +1,2 @@
-1. [ ] Layout do site
+1. [X] Escopo do site
 2. [ ] Mobile First
