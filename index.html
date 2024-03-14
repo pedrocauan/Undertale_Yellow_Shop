@@ -5,37 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <main>
-        <header>
-            <h1>Undertale Yellow</h1>
-            <nav class="menu">
-                <ul class="menu-content">
-                    <li>
-                        <a href="#">bbb</a>
-                    </li>
-                    <li>
-                        <a href="#">aaa</a>
-                    </li>
+        <header class="flex">
+            <div class="container flex">
+                <h1>Undertale Yellow</h1>
+                <div id="menu-burger" class="menu-burger flex">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
 
-                </ul>
-            </nav>
+            </div>
         </header>
-        <section>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="#">
+                    Sobre a Loja
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Produtos    
+                </a>
+            </li>
+        </ul>
+        <section class="about">
             <img src="" alt="">
-            <div class="sobre">
+            <div class="about-content">
                 <h2>Sobre a loja</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti adipisci accusamus vel doloribus
                     veritatis sit ad consequatur nisi aut quos. A ullam rerum at. Temporibus praesentium rem dolores
                     provident possimus?</p>
             </div>
-            <h2>Sobre a loja</h2>
         </section>
-        <section>
-            <h2>Produtos</h2>
-            <article>
+        <section class="product">
+            <h2>Mimos</h2>
+            <article class="product-item">
                 <img src="" alt="">
                 <h3>Produto 1</h3>
                 <p>dafkfdakdfakfdakdfakdafdkfa</p>
@@ -44,5 +53,6 @@
         </section>
     </main>
 </body>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="./js/index.js"></script>
 </html>

@@ -1,2 +1,2 @@
 1. [X] Escopo do site
-2. [ ] Mobile First
+2. [x] Menu Mobile
