@@ -1,3 +1,3 @@
 $("#menu-burger").click(function() {
-    $("#menu").slideToggle();
+    $("#menu").slideToggle(300);
 });

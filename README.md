@@ -1,2 +1,3 @@
 1. [X] Escopo do site
-2. [x] Menu Mobile
+1. [X] Menu Mobile
+    1. [X] - Estilização do menu
