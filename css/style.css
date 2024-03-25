@@ -85,7 +85,7 @@ section {
 span {
     color: rgb(255, 196, 0);
 }
-header, .about, .product, .menu {
+header, .about, .product, .menu, .product {
     padding: 1.8rem;
 }
 
@@ -165,8 +165,8 @@ header .container {
     padding-top: 2rem;
 }
 
-.about .about-content h2 {
-    margin-bottom: 1rem;
+.about .about-content h2, .product h2 {
+    margin-bottom: 3rem;
     color: rgb(255, 174, 0);
     font-family: "fallen-down";
     font-size: 1.7rem;
@@ -184,5 +184,52 @@ header .container {
     margin-bottom: 1rem;
 }
 .product {
-    background-color: rgb(87, 80, 80);
+    background-color: rgb(12, 12, 12);
+    padding: 1rem;
 }
+
+.product-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 3.2rem;
+
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+}
+
+.product-item h3, .product-item p, .product-item button {
+    padding: 1.2rem;
+}
+
+
+.product-item img {
+    width: 100%;
+    height: 25rem;
+}
+
+.product-item h3 {
+    color: rgb(255, 0, 0);
+    font-family: "MonsterFriendFore";
+    text-align: center;
+    line-height: 2.4rem;
+    letter-spacing: 0.3rem;
+}
+
+.product-item button {
+    background-color: yellow;
+    border: none;
+    font-family: "determination";  
+    font-size: 1.5rem;
+    letter-spacing: 0.13rem; 
+}
+
+.product-item p {
+    text-align: justify;
+}
+
