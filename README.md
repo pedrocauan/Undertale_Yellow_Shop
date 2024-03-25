@@ -4,3 +4,4 @@
 1. [X] - Sessão Sobre
 1. [X] - Sessão de Produtos
 1. [X] - Fim das versão mobile
+1. [X] - Adaptando para tablet e desktop

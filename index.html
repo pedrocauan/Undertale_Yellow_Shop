@@ -9,33 +9,40 @@
 </head>
 
 <body>
-    <main>
-        <header class="flex">
-            <div class="container flex">
-                <h1>Undertale <span>Yellow</span></h1>
-                <div id="menu-burger" class="menu-burger flex">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
+    <div class="container">
 
-            </div>
-        </header>
-        <ul id="menu" class="menu flex">
-            <li>
-                <img src="./img/heart.png" alt="coração vermelho">
-                <a href="#">
-                    Sobre a Loja
-                </a>
-            </li>
-            <li>
-                <img src="./img/heart.png" alt="coração vermelho">    
-                <a href="#">
-                    Produtos
-                </a>
-            </li>
-        </ul>
-        <section class="about">
+
+        <div class="content">
+            <header class="flex">
+                <div class="container flex">
+                    <h1>Undertale <span>Yellow</span></h1>
+                    <div id="menu-burger" class="menu-burger flex">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+    
+                </div>
+            </header>
+            <ul id="menu" class="menu flex">
+                <li>
+                    <img src="./img/heart.png" alt="coração vermelho">
+                    <a href="#about">
+                        Sobre a Loja
+                    </a>
+                </li>
+                <li>
+                    <img src="./img/heart.png" alt="coração vermelho">    
+                    <a href="#product">
+                        Produtos
+                    </a>
+                </li>
+            </ul>
+    
+        </div>
+    </div>
+    <main>
+        <section id="about" class="about">
             <img src="./img/loja.jpg" alt="">
             <div class="about-content">
                 <h2>Sobre a loja</h2>
@@ -44,7 +51,7 @@
                 <p>Estamos abertos de terça a domingo, das 10:00 até as 21:00. Enviamos entregas via sedex e também atendemos presencialmente no endereço Rua Catilde De Nascimento, nº 443, Liberdade - São Paulo - SP</p>
             </div>
         </section>
-        <section class="product">
+        <section id="product" class="product">
             <h2>Mimos</h2>
             <div class="product-content">
                 <!--Camiseta-->
@@ -66,6 +73,12 @@
                     <img src="./img/bonecos.jpeg" alt="camiseta preta de undertale">
                     <h3>Bonecos Undertale</h3>
                     <p>Coleção de bonecos Frisk, Papyrus, Undyne, Sans, etc.. Òtimo para enfeita o quarto</p>
+                    <button>Adicionar ao carrinho</button>
+                </article>
+                <article class="product-item">
+                    <img src="./img/camiseta-sans.jpg" alt="camiseta do sans de undertale">
+                    <h3>Camiseta Sans</h3>
+                    <p>Camiseta do Sans, Undertale. Megalovania. Tamanhos P, M, G, GG</p>
                     <button>Adicionar ao carrinho</button>
                 </article>
             </div>
