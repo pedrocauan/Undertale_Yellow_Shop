@@ -335,6 +335,10 @@ header .container {
     .product-item img {
         height: 30rem;
     }
+
+    .product-item p, .about .about-content p {
+        font-size: 1.9rem;
+    }
     h2 {
         font-size: 2.5rem !important;
     }
